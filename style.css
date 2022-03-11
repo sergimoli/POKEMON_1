@@ -1,0 +1,62 @@
+body {
+  background: #efefbb;
+  background: linear-gradient(to right, #63626e, #3d3d0d);
+  font-family: "Pokemon Solid", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: inherit;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pokemon {
+  background-color: rgb(105, 30, 68);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  /* height: ; */
+  width: 250px;
+  height: 300px;
+}
+
+/* el fondo que envuelve el pokemon */
+.pokemon .img-container {
+  background-color: rgb(136, 132, 135);
+  border-radius: 25%;
+  width: 220px;
+  height: 120px;
+  text-align: center;
+}
+
+.pokemon .img-container img {
+  height: 155px;
+  margin-top: -10px;
+  transition: 1.5s;
+}
+.pokemon .img-container img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  filter: drop-shadow(0 5px 3px black);
+}
+
+.pokemon .number {
+  background-color: rgba(185, 101, 129, 0.1);
+  border-radius: 100px;
+  font-size: large;
+}
+
+.pokemon .info .name {
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+
+.pokemon .info .type {
+  font-size: smaller;
+}
