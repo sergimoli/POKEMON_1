@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Pokemon Solid";
+  src: url(assets/fonts/Pokemon\ Solid.ttf);
+}
+
 body {
   background: #efefbb;
   background: linear-gradient(to right, #63626e, #3d3d0d);
@@ -18,15 +23,19 @@ body {
 .pokemon {
   background-color: rgb(105, 30, 68);
   border-radius: 10px;
-  margin: 10px;
-  padding: 20px;
-  text-align: center;
+  /* margin: 10px; */
+  margin-bottom: 10px;
+  /* padding: 20px; */
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* text-align: center; */
   /* height: ; */
-  width: 250px;
-  height: 300px;
+  width: 220px;
+  height: 250px;
 }
 
-/* el fondo que envuelve el pokemon */
+/* back from pokemon */
 .pokemon .img-container {
   background-color: rgb(136, 132, 135);
   border-radius: 25%;
@@ -49,14 +58,16 @@ body {
 .pokemon .number {
   background-color: rgba(185, 101, 129, 0.1);
   border-radius: 100px;
-  font-size: large;
+  font-size: x-small;
 }
 
 .pokemon .info .name {
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 1px;
+  text-align: center;
 }
 
 .pokemon .info .type {
   font-size: smaller;
+  text-align: center;
 }
